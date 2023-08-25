@@ -22,7 +22,7 @@ img.img-container {
   background-color: #f3eeee;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   top:0;
 }
 .topnav .navbar {
@@ -1043,15 +1043,15 @@ iframe {
   width: 42px;
   height: 143px;
 } */
-.form {
+/* .form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-}
+} */
 
 input[type=text],
 [type=number],
-[type=email] {
+[type=email]  {
   width: 100%;
   padding: 12px;
   border: 1px solid #0006;
@@ -1062,6 +1062,7 @@ input[type=text],
   resize: vertical;
   box-shadow: black;
   font-size: medium;
+  /* cursor: pointer; */
 }
 
 input[type=submit] {
@@ -1072,6 +1073,7 @@ input[type=submit] {
   width: 100px;
   border-radius: 35px;
   cursor: pointer;
+
 }
 
 input[type=submit]:hover {
@@ -1079,18 +1081,21 @@ input[type=submit]:hover {
 }
 
 .form1 {
-  display: grid;
-  display: inline-grid;
+  /* display: grid; */
+  /* display: inline-grid; */
+  z-index: 1;
 }
 
 .form2 {
-  display: grid;
-  display: inline-grid;
+  /* display: grid; */
+  /* display: inline-grid; */
+  z-index: 1;
 }
 
 .form3 {
-  display: grid;
-  display: inline-grid;
+  /* display: grid; */
+  /* display: inline-grid; */
+  z-index: 1;
 }
 
 form {
